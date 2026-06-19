@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instagram</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#fafafa;
+}
+
+.card{
+    width:350px;
+    background:white;
+    border:1px solid #ddd;
+    padding:40px;
+    text-align:center;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin:6px 0;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#1877f2;
+    color:white;
+    border-radius:4px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.note{
+    margin-top:20px;
+    color:#666;
+    font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="logo">
+Instagram
+</div>
+
+<form action="/login" method="POST">
+
+<input
+type="text"
+name="username"
+placeholder="Username"
+required>
+
+<input
+type="password"
+name="password"
+placeholder="Password"
+required>
+
+<button type="submit">
+Log In
+</button>
+
+</form>
+
+<div class="note">
+Cybersecurity awareness demonstration
+</div>
+
+</div>
+
+</body>
+</html>
